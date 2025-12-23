@@ -1,0 +1,100 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.3/schema.json
+cv:
+  name: Juan Rodriguez Morais
+  location: Auckland, New Zealand
+  email: juan@timrodz.dev
+  phone: +64-021-8142-465
+  website: https://www.timrodz.dev
+  social_networks:
+    - network: LinkedIn
+      username: timrodz
+    - network: GitHub
+      username: timrodz
+  sections:
+    Summary:
+      - "Senior Software Engineer with 7 years of experience architecting high-performance ecosystems across ArchViz, Fintech, and Gaming. Specialist in scaling applications for multi-gigabyte datasets, global Kubernetes (EKS) orchestration, and high-load automation. Proven track record of reducing operational overhead by 99% and delivering revenue-driving integrations for platforms with 500k+ users."
+    skills:
+      - label: Leadership
+        details: "Technical Lead, Architecture Design, Mentorship, Stakeholder Management, Project Ownership"
+      - label: Technologies
+        details: "TypeScript, React, Next.js, Node.js (Nest.js/Express), Elixir, C#, .NET, Python, Go, GraphQL"
+      - label: Infrastructure
+        details: "AWS (EKS, ECS, S3, SQS, RDS), Kubernetes, Docker, PostgreSQL, MongoDB, CI/CD Pipelines"
+      - label: Specialized
+        details: "ArchViz Pipelines, Fintech (FX/Trading), 3D Web (Three.js/WebGL), Electron, AI Agents"
+    experience:
+      - company: The Boundary
+        position: Senior Software Engineer
+        start_date: 2024-06
+        end_date: present
+        location: Auckland, NZ
+        summary: "Architecting the 'Realspace' ecosystem, focusing on high-fidelity 3D visualization and global cloud infrastructure."
+        highlights:
+          - "Operational Automation: Engineered an Electron-based automation suite that reduced manual CMS entry time for massive 3D projects from 2 hours to 1 minute (99% efficiency gain)."
+          - "International Technical Leadership: Led a 2-week architectural handover in London for a complex 3D tour platform; assumed full ownership of a distributed system processing 8K resolution assets."
+          - "High-Performance Graphics: Developed a proprietary 'Location Map' viewer capable of tiling and rendering 1GB assets in 1s, alongside 360° panoramic view-line features."
+          - "System Resilience: Optimized media upload pipelines for 1GB+ files with integrated asynchronous anti-virus scanning and automated asset validation."
+          - "Cloud Infrastructure: Manage deployments across global multi-region EKS clusters, ensuring 99.9% uptime through proactive bug suppression and pod orchestration."
+      - company: Futureverse
+        position: Senior Software Engineer (Contract)
+        start_date: 2023-08
+        end_date: 2024-08
+        location: Auckland, NZ
+        highlights:
+          - "Product Ownership: Led a 4-person team to build the 'Party Bears' web app, achieving a 70% user adoption rate within the ecosystem."
+          - "Performance Engineering: Refactored database architectures for external partners, resulting in a 5x throughput improvement for game-related queries."
+          - "Strategic Migration: Directed the technical migration of the 'Muhammad Ali: The Next Legends' platform to a modern, scalable stack."
+      - company: Plex, Inc.
+        position: Intermediate Backend Software Engineer (Contract)
+        start_date: 2022-09
+        end_date: 2023-07
+        location: Remote
+        highlights:
+          - "Data Reliability: Engineered scalable ETL workers processing metadata from 5+ global sources, significantly improving data quality for PlexTV."
+          - "Distributed Systems: Architected 10+ REST APIs using Express.js and AWS, optimizing high-load cron workflows to eliminate system bottlenecks." 
+      - company: Virtually Human
+        position: Intermediate Software Engineer (Contract)
+        start_date: 2022-04
+        end_date: 2022-09
+        location: Remote
+        highlights:
+          - "Latency Optimization: Reduced ZED RUN game load times by 66% (30s to 10s) through aggressive asset benchmarking and device-specific optimization."
+          - "3D Web Engineering: Developed immersive 3D race tracks using React, Three.js, and Elixir/Phoenix."
+      - company: Sharesies
+        position: Intermediate Software Engineer
+        start_date: 2020-06
+        end_date: 2022-04
+        location: Wellington, NZ
+        highlights:
+          - "Market Expansion: Spearheaded the ASX integration, directly generating $1M+ in revenue and onboarding 50,000+ new users."
+          - "Fintech Architecture: Designed a real-time Currency Exchange (FX) system that became a core revenue-generating pillar for the platform."
+      - company: PikPok
+        position: Junior Full-Stack Software Engineer
+        start_date: 2018-06
+        end_date: 2020-06
+        location: Wellington, NZ
+        highlights:
+          - "Full-Lifecycle Delivery: Contributed to award-winning titles 'Clusterduck' and 'I Am Monster,' collectively generating $1M+ in revenue."
+    projects:
+      - name: "[Tie Breaker](https://gettiebreaker.com)"
+        start_date: 2023-11
+        end_date: present
+        summary: "A high-traffic web application for hosting TCG tournaments, serving 1,000+ monthly active users."
+        highlights:
+          - "Open-source contributor: Maintained the codebase on GitHub and managed community-driven feature requests."
+    education:
+      - institution: Media Design School
+        area: Software Engineering
+        degree: BSc
+        start_date: 2015-07
+        end_date: 2018-06
+        location: Auckland, NZ
+        highlights:
+          - "Featured in international news for student game projects; 2x internship-to-hire recipient."
+  sort_entries: none
+design:
+  theme: engineeringresumes
+rendercv_settings:
+  date: "2025-12-24"
+  bold_keywords: []
+  sort_entries: none
