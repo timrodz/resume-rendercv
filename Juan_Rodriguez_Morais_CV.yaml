@@ -7,8 +7,6 @@ cv:
   social_networks:
     - network: LinkedIn
       username: timrodz
-    - network: GitHub
-      username: timrodz
   sections:
     summary:
       - "Product Engineer. Experienced in leading technical teams and projects, architecting scalable systems, and delivering high-impact software solutions. Work at Full-Stack capacity from PRD to live product. Open source contributor."
@@ -43,7 +41,7 @@ cv:
         highlights:
           - "Led a 4-person team to build the 'Party Bears' web app, achieving a 70% user adoption rate within the ecosystem."
           - "Directed the technical migration of the 'Muhammad Ali: The Next Legends' platform to a modern, scalable stack."
-          - "Refactored database architectures for external partners, resulting in a 5x throughput improvement for game-related queries."
+          - "Refactored database architectures for external partners, resulting in a 5x throughput improvement for game-related queries. They were using C# with .NET and the Unity game engine."
           - "Key technologies: Next.js, TypeScript, Three.js, Unity, C# Ethers.js, AWS."
       - company: Plex, Inc.
         position: Intermediate Backend Software Engineer (Contract)
@@ -51,6 +49,7 @@ cv:
         end_date: 2023-07
         location: Remote
         highlights:
+          - "Improved the performance of automated tasks by implementing parallelization techniques to operate asynchronously and concurrently."
           - "Engineered scalable ETL workers processing metadata from 5+ global sources, significantly improving data quality for PlexTV."
           - "Architected REST APIs using Express.js and AWS, optimizing high-load cron workflows to eliminate system bottlenecks."
           - "Key technologies: Node.js, Express.js, MongoDB, AWS"
@@ -62,7 +61,7 @@ cv:
         highlights:
           - "Reduced ZED RUN game load times by 66% (30s to 10s) through aggressive asset benchmarking and device-specific optimization."
           - "Contributed to backend services and frontend features"
-          - "Key technologies: React, Three.js, Elixir, Phoenix, AWS."
+          - "Key technologies: TypeScript, React, Three.js, Elixir, Phoenix, PostgreSQL AWS."
       - company: Sharesies
         position: Intermediate Software Engineer
         start_date: 2020-06
@@ -72,7 +71,7 @@ cv:
           - "Primary contributor to the ASX integration, directly generating $1M+ in revenue and onboarding 50,000+ new users."
           - "Designed a real-time Currency Exchange (FX) system that became a core revenue-generating pillar for the platform."
           - "Worked on an internal CMS that enabled the operations and compliance team to handle 3x the workload with existing headcount."
-          - "Key technologies: C#, .NET, PostgreSQL, Python, AWS, TypeScript, React, Redux."
+          - "Key technologies: C#, .NET, PostgreSQL, Python, Flask, TypeScript, React, React Router, Redux, AWS"
       - company: PikPok
         position: Junior Full-Stack Software Engineer
         start_date: 2018-06
@@ -89,8 +88,16 @@ cv:
           - "Built with Elixir, Phoenix, LiveView, and TailwindCSS."
       - name: "Interactive high-fidelity tours"
         highlights:
-          - "Architected a scalable 3D tour platform with a dedicated game server"
-          - "Key technologies: PlayCanvas, React, Redis, Kubernetes, Colyseus.io, Google Cloud"
+          - "Architected a scalable 3D tour platform with a dedicated game server."
+          - "Key technologies: PlayCanvas, React, Redis, Kubernetes, Terraform, Colyseus.io, Google Cloud (GCP)"
+      - name: "Merkapp: Ecommerce website"
+        highlights:
+          - "Worked with a client to build their Shopify-powered e-commerce website. It had to synchronize data from Shopify and a dedicated backend. I predominantly worked on the frontend integration, tackling search functionality and server-side rendering (SSR)."
+          - "Key technologies: TypeSript, React, Next.js, Shopify, Algolia, AWS Fargate"
+      - name: "Panmazon: Ecommerce website"
+        highlights:
+          - "Worked with a client to build a custom e-commerce website where users could create their personal stores with whatever items they wanted. It had 4K monthly users and handled concurrent requests with ease."
+          - "Key technologies: TypeScript, Angular, Python, Django, AWS"
     education:
       - institution: Media Design School
         area: Software Engineering
@@ -100,6 +107,8 @@ cv:
         location: Auckland, NZ
         highlights:
           - "Featured in international news for student game projects; 2x internship-to-hire recipient."
+          - "Created a horror videogame with Unreal Engine 4."
+          - 'Created multiple games with Unity. One of them got a mention in online forums under "Most interesting games of the week".'
   sort_entries: none
 design:
   theme: engineeringresumes
@@ -109,7 +118,10 @@ design:
     body: rgb(0, 0, 0)
     section_titles: rgb(15, 118, 103)
   typography:
-    line_spacing: 0.7em
+    line_spacing: 0.65em
+    bold:
+      name: false
+      section_titles: true
     alignment: justified
     font_family: Source Sans 3
     font_size:
