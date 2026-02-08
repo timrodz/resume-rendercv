@@ -9,30 +9,31 @@ cv:
       username: timrodz
   sections:
     summary:
-      - "Product Engineer. Experienced in leading technical teams and projects, architecting scalable systems, and delivering high-impact software solutions. Work at Full-Stack capacity from PRD to live product. Open source contributor."
+      - "Product Engineer that thrives with high ownership of systems. I solve problems end-to-end: from customer pain to customer excellence. Currently learning and applying AI orchestration."
     skills:
       - label: Technologies
-        details: "TypeScript, React, Next.js, Nest.js, Express, Elixir, Phoenix, Python"
+        details: "JavaScript, Python, Elixir, React, TypeScript, Next.js, Nest.js, Electron, Zod, Jotai, Shadcn, ReactQuery"
+      - label: Architecture
+        details: "API design, Event-driven design, Pub/Sub messaging, Monolith, Monorepo, MVC, MVVM, Testing, Agile"
       - label: Infrastructure
-        details: "AWS SDK + CDK, Docker, PostgreSQL, Redis, Kubernetes, CI/CD Pipelines"
-      - label: Domain
-        details: "ArchViz Pipelines, Fintech (FX/Trading), 3D Web (Three.js/WebGL), Electron, AI Agents"
+        details: "AWS, Docker, Postgres, MongoDB, Redis, Kubernetes, Terraform, CI/CD Pipelines (GitHub + Azure)"
+      - label: AI
+        details: "RAG + Multi-modal agents, Vector search (MongoDB, Pinecone), Embedding transformers, Anthropic, OpenAI, Gemini"
     experience:
       - company: The Boundary
         position: Senior Software Engineer
         start_date: 2024-09
         end_date: present
         location: Auckland, NZ
-        summary: "Working on the 'Realspace 5' application ecosystem, focusing on high-fidelity 3D visualization and global cloud infrastructure. Adopting AI agents to enhance user workflows and developer productivity."
+        summary: "Working on the 'Realspace 5' application ecosystem, focusing on high-fidelity 3D visualization and global cloud infrastructure. Leading AI tooling with agents to enhance user workflows and developer productivity."
         highlights:
-          - "Architected an Electron-based application that reduced manual CMS entry time for massive 3D projects from 2 hours to 1 minute (99% efficiency gain), versioned via CI/CD and GitHub releases."
+          - "Shipping multiple features and POCs, taking complete ownership (customer problem, PRD, implementation, iteration)."
           - "Architected media upload pipelines capable of handling 1GB+ files with parallelized anti-virus scanning and automated asset validation. This is key to the business as most of our content is media (images, videos, 3D files)."
-          - "Developed a proprietary 'Location' viewer capable of rendering 1GB assets in 1s using advanced tiling techniques, alongside 360° building panoramic view lines. These features were key implementations for winning clients and securing more contracts."
-          - "Led a 2-week architectural handover in London, UK for a complex 3D tour platform; assumed full ownership of a distributed system processing 8K resolution assets with up/downscaling."
-          - "Spearheaded a file migration of over 10,000 files to comply with business needs via automated scripts and cron jobs. The operation was completed with zero downtime, and over 100 GB worth of files were migrated successfully."
-          - "Designed and implemented a large number of RESTful APIs, consumed by multiple applications. Documented in Postman for shared team access."
-          - "Focus on application stability across global multi-region EKS clusters, ensuring we meet SLOs through proactive bug suppression and pod orchestration."
-          - "Key technologies: React, TypeScript, Next.js, Electron, Node.js, Nest.js, AWS, PostgreSQL, Docker, Kubernetes."
+          - "Released an internal desktop application that reduces manual CMS entry time from 1.5 hours to 10 minutes on average via complex automations, freeing up critical time for internal operation teams."
+          - "Focused on application stability across global multi-region EKS clusters, ensuring we meet SLOs through proactive bug suppression and pod orchestration."
+          # - "Led a 2-week architectural handover in London, UK for a complex 3D tour platform; assumed full ownership of a distributed system processing 8K resolution assets with up/downscaling."
+          # - "Spearheaded a file migration of over 10,000 files to comply with business needs via automated scripts and cron jobs. The operation was completed with zero downtime, and over 100 GB worth of files were migrated successfully."
+          - "Key technologies: TypeScript, React, Next.js, Electron, Node.js, Nest.js, Jest, AWS, PostgreSQL, Docker, Kubernetes."
       - company: Futureverse
         position: Senior Software Engineer (Contract)
         start_date: 2023-08
@@ -41,17 +42,17 @@ cv:
         highlights:
           - "Led a 4-person team to build the 'Party Bears' web app, achieving a 70% user adoption rate within the ecosystem."
           - "Directed the technical migration of the 'Muhammad Ali: The Next Legends' platform to a modern, scalable stack."
-          - "Refactored database architectures for external partners, resulting in a 5x throughput improvement for game-related queries. They were using C# with .NET and the Unity game engine."
-          - "Key technologies: Next.js, TypeScript, Three.js, Unity, C# Ethers.js, AWS."
+          # - "Refactored database architectures for external partners, resulting in a 5x throughput improvement for game-related queries. They were using C# with .NET and the Unity game engine."
+          - "Key technologies: Next.js, TypeScript, Three.js, Unity, C#, Ethers.js, AWS, Blockchain bridging, Tokenization, NFTs."
       - company: Plex, Inc.
         position: Intermediate Backend Software Engineer (Contract)
         start_date: 2022-09
         end_date: 2023-07
         location: Remote
         highlights:
-          - "Improved the performance of automated tasks by implementing parallelization techniques to operate asynchronously and concurrently."
+          - "Improved the performance of scheduled tasks (cron jobs) by implementing parallelization techniques to operate asynchronously and concurrently."
           - "Engineered scalable ETL workers processing metadata from 5+ global sources, significantly improving data quality for PlexTV."
-          - "Architected REST APIs using Express.js and AWS, optimizing high-load cron workflows to eliminate system bottlenecks."
+          # - "Architected REST APIs using Express.js and AWS, optimizing high-load cron workflows to eliminate system bottlenecks."
           - "Key technologies: Node.js, Express.js, MongoDB, AWS"
       - company: Virtually Human
         position: Intermediate Software Engineer (Contract)
@@ -60,7 +61,7 @@ cv:
         location: Remote
         highlights:
           - "Reduced ZED RUN game load times by 66% (30s to 10s) through aggressive asset benchmarking and device-specific optimization."
-          - "Contributed to backend services and frontend features"
+          # - "Contributed to backend services and frontend features"
           - "Key technologies: TypeScript, React, Three.js, Elixir, Phoenix, PostgreSQL AWS."
       - company: Sharesies
         position: Intermediate Software Engineer
@@ -80,24 +81,37 @@ cv:
         highlights:
           - "Contributed to award-winning titles 'Clusterduck' and 'I Am Monster' with Unity and C#, collectively generating $1M+ in revenue."
     projects:
-      - name: "Tie Breaker - Web application for hosting TCG tour"
+      - name: "Card Oracle: Real-time AI agent web application for Magic: The Gathering cards"
         highlights:
-          - "Actively maintaining the codebase on GitHub, managing community-driven feature requests."
-          - "Offered a public API for third-party integrations."
-          - "Working on a mobile app integration using React Native."
-          - "Built with Elixir, Phoenix, LiveView, and TailwindCSS."
-      - name: "Interactive high-fidelity tours"
+          - "Built an interactive voice-calling system where users ask for card names and get real-time augmented data during the call (visual + voice feedback)."
+          - "Developed a RAG (retrieval-augmented generation) search pipeline that procesed ~37,000 records with MongoDB, generating embeddings with synthetic document chunking. Users can ask questions through an LLM and get an augmented answer."
+          - "Evaluated transformer pipelines and decided on 384-dimension transformers from HuggingFace, because the quality of my data was good, and text was relatively short."
+          - "Key technologies: Python, TypeScript, NextJS, React, ElevenLabs SDK, FastAPI, MongoDB, Transformers, Huggingface, Ollama"
+      - name: "DigiLens ARGO: Augmented Reality AI agents"
+        highlights:
+          - "Built an AR demo for clients in California using the DigiLens ARGO headset, integrating OpenAI voice + text for in-AR chat."
+          - "Key technologies: Unity, C#, DigiLens ARGO, OpenAI, Snapdrgon SDK"
+      - name: "Oink: Cross-platform personal finance manager"
+        highlights:
+          - "Built a desktop app that helps users understand their net worth. Supports multi-currency accounts, and retirement planning projections."
+          - "Key technologies: Tauri, JavaScript, React, Rust"
+      - name: "Tie Breaker: Tournament hosting web application for card games"
+        highlights:
+          - "Developed a concurrent system that handles tournaments of up to 100 players. Features 3 complex pairing algorithms."
+          - "Currently building a mobile application to access the app. This app has rapidly evolved based on user feedback."
+          - "Key technologies: Elixir, Phoenix, LiveView, Tailwind, JavaScript, React Native, Fly.io"
+      - name: "PlayCanvas: Interactive, multiplayer high-fidelity 3D tours in the web"
         highlights:
           - "Architected a scalable 3D tour platform with a dedicated game server."
-          - "Key technologies: PlayCanvas, React, Redis, Kubernetes, Terraform, Colyseus.io, Google Cloud (GCP)"
-      - name: "Merkapp: Ecommerce website"
-        highlights:
-          - "Worked with a client to build their Shopify-powered e-commerce website. It had to synchronize data from Shopify and a dedicated backend. I predominantly worked on the frontend integration, tackling search functionality and server-side rendering (SSR)."
-          - "Key technologies: TypeSript, React, Next.js, Shopify, Algolia, AWS Fargate"
-      - name: "Panmazon: Ecommerce website"
-        highlights:
-          - "Worked with a client to build a custom e-commerce website where users could create their personal stores with whatever items they wanted. It had 4K monthly users and handled concurrent requests with ease."
-          - "Key technologies: TypeScript, Angular, Python, Django, AWS"
+          - "Key technologies: TypeScript, PlayCanvas, React, Redis, Kubernetes, Terraform, Colyseus.io, Google Cloud (GCP)"
+      # - name: "Merkapp: Ecommerce website"
+      #   highlights:
+      #     - "Worked with a client to build their Shopify-powered e-commerce website. It had to synchronize data from Shopify and a dedicated backend. I predominantly worked on the frontend integration, tackling search functionality and server-side rendering (SSR)."
+      #     - "Key technologies: TypeSript, React, Next.js, Shopify, Algolia, AWS Fargate"
+      # - name: "Panmazon: Ecommerce website"
+      #   highlights:
+      #     - "Worked with a client to build a custom e-commerce website where users could create their personal stores with whatever items they wanted. It had 4K monthly users and handled concurrent requests with ease."
+      #     - "Key technologies: TypeScript, Angular, Python, Django, AWS"
     education:
       - institution: Media Design School
         area: Software Engineering

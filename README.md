@@ -4,7 +4,7 @@
 
 Python 3.12
 
-```shell
+```bash
 uv python install 3.12
 uv venv --python 3.12
 uv tool install "rendercv[full]"
@@ -12,7 +12,7 @@ uv tool install "rendercv[full]"
 
 ## Development + rendering
 
-```shell
+```bash
 rendercv render --watch Juan_Rodriguez_Morais_CV.yaml
 ```
 
